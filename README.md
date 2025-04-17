@@ -1,10 +1,4 @@
-[English README](README_en.md) 
-
-[español README](README_es.md)
-
-[Français README](README_fr.md)
-
-[Русский RREADME](README_ru.md)
+[English README](README_en.md)  |  [español README](README_es.md)  |  [Français README](README_fr.md)  |  [Русский RREADME](README_ru.md)
 
 # README: HelloWorld 项目
 
@@ -36,6 +30,8 @@ PROJECT_ROOT
 │   ├── Java                  # Java 语言实现目录
 │   │   ├── HelloWorld01.java # Java 语言实现的第一个主程序文件
 │   │   └── HelloWorld02.java # Java 语言实现的第二个主程序文件
+│   ├── Js                    # JavaScript 语言实现目录
+│   │   └── HelloWorld01.js   # JavaScript 语言实现的主程序文件
 │   └── 文言                  # 文言语言实现目录
 │       └── 天地，好在否！.wy  # 文言语言实现的主程序文件
 ├── .gitignore                # Git 忽略文件配置，定义哪些文件不纳入版本控制
@@ -48,7 +44,7 @@ PROJECT_ROOT
 
 ## 运行环境
 
-- **编程语言环境**：确保已安装对应语言的开发环境（如 GCC、Go、JDK 等）。
+- **编程语言环境**：确保已安装对应语言的开发环境（如 GCC、Go、JDK 、Node.js 等）。
 - **操作系统**：支持所有主流操作系统（Windows、macOS、Linux）。
 
 ## 运行方法
@@ -77,10 +73,11 @@ PROJECT_ROOT
 
 1. **运行程序**：
    打开终端或命令行，导航到 `Go` 目录，直接运行以下命令：
+   
    ```bash
    go run hello.go
    ```
-
+   
 2. **查看输出**：
    程序运行后，终端将输出：
    ```text
@@ -108,6 +105,20 @@ PROJECT_ROOT
    Hello World
    ```
 
+### JavaScript 版本
+
+1. **运行程序**： 确保已安装 Node.js，然后打开终端或命令行，导航到 `Js` 目录，运行以下命令：
+
+   ```bash
+   node HelloWorld*.js
+   ```
+
+2. **查看输出**： 程序运行后，终端将输出：
+
+   ```text
+   Hello World
+   ```
+
 ### 文言语言版本
 
 1. **运行程序**：
@@ -119,6 +130,7 @@ PROJECT_ROOT
    
 2. **查看输出**：
    程序运行后，终端将输出：
+   
    ```text
    問天地好在
    ```
@@ -151,6 +163,24 @@ func main() {
 
 - `main` 函数是 Go 程序的入口点，程序从这里开始执行。它是 Go 运行时与程序交互的核心接口。
 
+#### JavaScript 示例
+
+```javascript
+function main() {
+```
+
+- `main` 函数是 JavaScript 程序的入口点，程序从这里开始执行。它是 JavaScript 引擎与程序交互的核心接口。
+
+#### 文言 示例
+
+```Wenyan
+是術曰。
+	...
+是謂「問天地好在」之術也。
+```
+
+- `是術曰` 函数是 文言 程序的函数入口点，程序从这里开始执行。它是 文言 编译器的核心入口。
+
 ### 输出语句
 
 #### Java 示例
@@ -179,6 +209,23 @@ fmt.Println("Hello, World!") // 打印 "Hello, World!"，并换行
 
 - `fmt.Println`：通过标准输出流输出文本，并在输出后添加换行符，确保输出格式的规范性。
 
+#### JavaScript 示例
+
+```javascript
+console.log("Hello, World!"); // 打印 "Hello, World!"，并换行
+```
+
+- `console.log`：通过标准输出流输出文本，并在输出后添加换行符，确保输出格式的规范性。
+
+#### 文言 示例
+
+```Wenyan
+吾有一言。曰「「問天地好在」」。	// 定义一个变量，其值为 "問天地好在"
+書之。 						// 打印 "問天地好在"，并换行
+```
+
+- `書之`：通过标准输出流输出文本，并在输出后添加换行符，确保输出格式的规范性。
+
 ## 版本历史
 
 ### V1.0.0
@@ -195,6 +242,11 @@ fmt.Println("Hello, World!") // 打印 "Hello, World!"，并换行
   - 优化了程序的运行流程，显著提升了程序的流畅度和响应速度。
 - **问题修复**：
   - 修复了多个未知的潜在问题，确保程序在各种环境下稳定运行。
+
+### V2.1.0
+
+- **新增多语言版本支持**：
+  - 实现了多语言支持，可依据实际开发需求自行选择对应版本。
 
 ## 项目意义
 

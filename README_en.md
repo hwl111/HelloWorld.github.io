@@ -1,10 +1,4 @@
-[中文 README](README.md)
-
-[español README](README_es.md)
-
-[Français README](README_fr.md)
-
-[Русский README](README_ru.md)
+[中文 README](README.md)  |  [español README](README_es.md)  |  [Français README](README_fr.md)  |  [Русский README](README_ru.md)
 
 # README: HelloWorld Project
 
@@ -36,7 +30,9 @@ PROJECT_ROOT
 │   ├── Java                  # Java Language Implementation Directory
 │   │   ├── HelloWorld01.java # First Main Program File for Java Language Implementation
 │   │   └── HelloWorld02.java # Second Main Program File for Java Language Implementation
-│   └── 文言                  # Wenyan Language Implementation Directory
+│   ├── Js                    # JavaScript Language Implementation Directory
+│   │   └── HelloWorld01.js   # Main Program File for JavaScript Language Implementation
+│   └── Wenyan                # Wenyan Language Implementation Directory
 │       └── 天地，好在否！.wy  # Main Program File for Wenyan Language Implementation
 ├── .gitignore                # Git Ignore File Configuration, Defining Files Not to Be Version Controlled
 ├── README.md                 # Main Project Documentation (Chinese)
@@ -48,7 +44,7 @@ PROJECT_ROOT
 
 ## Runtime Environment
 
-- **Programming Language Environment**: Ensure that the development environment for the corresponding language is installed (e.g., GCC, Go, JDK, etc.).
+- **Programming Language Environment**: Ensure that the development environment for the corresponding language is installed (e.g., GCC, Go, JDK, Node.js, etc.).
 - **Operating System**: Supports all mainstream operating systems (Windows, macOS, Linux).
 
 ## Running Instructions
@@ -115,10 +111,26 @@ PROJECT_ROOT
    Hello World
    ```
 
-### Classical Chinese Language Version
+### JavaScript Version
 
 1. **Run the Program**:
-   Ensure that the Classical Chinese language interpreter is installed, then open the terminal or command line, navigate to the `文言` directory, and run the following command:
+   Ensure that Node.js is installed, then open the terminal or command line, navigate to the `Js` directory, and run the following command:
+
+   ```bash
+   node HelloWorld*.js
+   ```
+
+2. **View Output**:
+   After the program runs, the terminal will output:
+
+   ```text
+   Hello World
+   ```
+
+### Wenyan Language Version
+
+1. **Run the Program**:
+   Ensure that the Wenyan language interpreter is installed, then open the terminal or command line, navigate to the `文言` directory, and run the following command:
 
    ```bash
    wy 天地，好在否！.wy
@@ -159,6 +171,24 @@ func main() {
 
 - The `main` function is the entry point of a Go program. The program starts executing from here. It is the core interface between the Go runtime and the program.
 
+#### JavaScript Example
+
+```javascript
+function main() {
+```
+
+- The `main` function is the entry point of a JavaScript program. The program starts executing from here. It is the core interface between the JavaScript engine and the program.
+
+#### Wenyan Example
+
+```Wenyan
+是術曰。
+	...
+是謂「問天地好在」之術也。
+```
+
+- The `是術曰` function is the entry point of a Wenyan program. The program starts executing from here. It is the core interface between the Wenyan compiler and the program.
+
 ### Output Statements
 
 #### Java Example
@@ -187,6 +217,23 @@ fmt.Println("Hello, World!") // Print "Hello, World!" with a newline
 
 - `fmt.Println`: Outputs text through the standard output stream and adds a newline character afterward, ensuring standardized output formatting.
 
+#### JavaScript Example
+
+```javascript
+console.log("Hello, World!"); // Print "Hello, World!" with a newline
+```
+
+- `console.log`: Outputs text through the standard output stream and adds a newline character afterward, ensuring standardized output formatting.
+
+#### Wenyan Example
+
+```Wenyan
+吾有一言。曰「「問天地好在」」。	// Define a variable with the value "問天地好在"
+書之。 						// Print "問天地好在" with a newline
+```
+
+- `書之`: Outputs text through the standard output stream and adds a newline character afterward, ensuring standardized output formatting.
+
 ## Version History
 
 ### V1.0.0
@@ -203,6 +250,11 @@ fmt.Println("Hello, World!") // Print "Hello, World!" with a newline
   - The program's runtime workflow was optimized, significantly enhancing smoothness and response speed.
 - **Issue Fixes**:
   - Multiple potential issues were resolved to ensure stable operation of the program in various environments.
+
+### V2.1.0
+
+- **Added Multi-language Support**:
+  - Implemented multi-language support, allowing users to choose the appropriate version based on development needs.
 
 ## Project Significance
 
