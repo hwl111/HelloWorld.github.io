@@ -109,10 +109,12 @@ System.out.println("World"); // Prints "World" followed by a line break
 - **The Dawn of Human-Machine Communication**: This code marks the beginning of human-machine communication, laying the foundation for the development of more complex systems.
 - **The Cornerstone of Programming Languages**: It is the first code that every Java programmer learns, symbolizing humanity's courage and wisdom in exploring the unknown.
 
+## Join Us
+
+If you would like to contribute, feel free to pull the repository and create any form of HelloWorld in any programming language. Place the file in the corresponding directory for the language, and if the language is not yet represented, you may create a new directory. File naming is unrestricted.
+
 ## Acknowledgments
 
 Thank you for choosing this project! Whether you are a beginner or an experienced developer, this code is worth your careful study. It is not only a technical masterpiece but also a symbol of human intelligence.
 
 We sincerely appreciate the valuable suggestions provided by all contributors, which have greatly supported the optimization and improvement of the project, driving its continuous evolution.
-
-If you would like to contribute, feel free to pull the repository and create any form of HelloWorld in any programming language. Place the file in the corresponding directory for the language, and if the language is not yet represented, you may create a new directory. File naming is unrestricted.
