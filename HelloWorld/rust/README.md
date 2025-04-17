@@ -6,7 +6,7 @@ It accepts an optional argument "figlet", which will print the text in a figlet 
 support on most Operating System
 you can find this project from [github](https://github.com/HuaGyuu/HelloWorld.github.io)
 
-Liscense: MIT or UNLICENCE
+Liscense: MIT
 
 ### Build & Run
 just go into this rs-project folder and run `cargo run` (or `cargo build` without running)
