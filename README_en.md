@@ -274,4 +274,4 @@ We sincerely appreciate the valuable suggestions provided by all participants, w
 
 ### Contribution Guidelines
 
-Developers who wish to contribute can freely create any form of HelloWorld in any programming language. Simply place the file in the corresponding language directory. If the language is not yet supported, you can create a new directory. File naming is unrestricted, and contributions of additional languages are welcome!
+Developers who wish to contribute can freely create any form of HelloWorld in any programming language. Simply place the file in the corresponding language directory. If the language is not yet supported, you can create a new directory(It is recommended to create a secondary directory with the folder name consisting of your own nickname plus "HelloWorld" to distinguish it from others' code.). File naming is unrestricted, and contributions of additional languages are welcome!
