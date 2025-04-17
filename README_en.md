@@ -252,4 +252,4 @@ We sincerely appreciate the valuable suggestions provided by all participants, w
 
 ### Contribution Guidelines
 
-Developers who want to participate in the creation can freely create HelloWorld programs in any language and in any form. They just need to create a folder named "their own nickname_HelloWorld" in the directory corresponding to the language, and put the files into this folder. There is no restriction on the file naming. For languages not covered, developers can create directories on their own. We welcome the addition of more languages!
+Developers who want to participate in the creation can freely create HelloWorld programs in any language and in any form. They just need to create a folder named "their own nickname(suggest)_HelloWorld" in the directory corresponding to the language, and put the files into this folder. There is no restriction on the file naming. For languages not covered, developers can create directories on their own. We welcome the addition of more languages!
