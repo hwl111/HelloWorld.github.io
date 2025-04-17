@@ -37,9 +37,6 @@ PROJECT_ROOT
 ├── .gitignore                # Git 忽略文件配置，定义哪些文件不纳入版本控制
 ├── README.md                 # 项目主说明文档（中文）
 ├── README_en.md              # 项目说明文档（英文）
-├── README_es.md              # 项目说明文档（西班牙语）
-├── README_fr.md              # 项目说明文档（法语）
-└── README_ru.md              # 项目说明文档（俄语）
 ```
 
 ## 运行环境
