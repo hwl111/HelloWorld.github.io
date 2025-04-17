@@ -231,28 +231,6 @@ console.log("Hello, World!"); // Print "Hello, World!" with a newline
 
 - `書之`: Outputs text through the standard output stream and adds a newline character afterward, ensuring standardized output formatting.
 
-## Version History
-
-### V1.0.0
-
-- Initial release, implementing precise calls to the core mechanisms of multiple programming languages, laying the foundation for the development of programming languages.
-
-### V2.0.0
-
-- **Code Structure Optimization**:
-  - Based on user suggestions, unified file naming conventions were adopted to enhance code readability and semantics.
-  - Detailed comments were added to each line of code to help users quickly understand the logic and reduce learning costs.
-- **Algorithm and Performance Improvement**:
-  - More advanced algorithms were adopted to improve code execution efficiency and logical clarity.
-  - The program's runtime workflow was optimized, significantly enhancing smoothness and response speed.
-- **Issue Fixes**:
-  - Multiple potential issues were resolved to ensure stable operation of the program in various environments.
-
-### V2.1.0
-
-- **Added Multi-language Support**:
-  - Implemented multi-language support, allowing users to choose the appropriate version based on development needs.
-
 ## Project Significance
 
 ### Technical Significance
