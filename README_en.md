@@ -37,9 +37,6 @@ PROJECT_ROOT
 ├── .gitignore                # Git Ignore File Configuration, Defining Files Not to Be Version Controlled
 ├── README.md                 # Main Project Documentation (Chinese)
 ├── README_en.md              # Project Documentation (English)
-├── README_es.md              # Project Documentation (Spanish)
-├── README_fr.md              # Project Documentation (French)
-└── README_ru.md              # Project Documentation (Russian)
 ```
 
 ## Runtime Environment
