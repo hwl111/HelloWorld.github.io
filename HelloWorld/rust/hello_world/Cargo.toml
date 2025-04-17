@@ -2,7 +2,7 @@
 name = "hello_world"
 version = "0.1.0"
 repository = "https://github.com/HuaGyuu/HelloWorld.github.io"
-license = "Unlicense OR MIT"
+license = "MIT"
 edition = "2021"
 
 [dependencies]
