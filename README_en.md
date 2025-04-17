@@ -1,4 +1,4 @@
-[中文 README](README.md)  |  [español README](README_es.md)  |  [Français README](README_fr.md)  |  [Русский README](README_ru.md)
+[中文 README](README.md)  
 
 # README: HelloWorld Project
 
