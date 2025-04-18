@@ -39,8 +39,6 @@ PROJECT_ROOT
 │   │   └── [参与者昵称]/HelloWorld.cpp      # 项目参与者采用 C++ 语言实现的主程序文件
 │   ├── C                     			# C 语言实现目录
 │   │   └── [参与者昵称]/HelloWorld.c      # 项目参与者采用 C 语言实现的主程序文件
-|   ├── cpp                     # C++ 语言实现目录
-│   │   └── [参与者昵称]/HelloWorld.cpp      # 项目参与者采用 C++ 语言实现的主程序文件
 │   ├── Go                    			# Go 语言实现目录
 │   │   └── [参与者昵称]/HelloWorld.go          # 项目参与者采用 Go 语言实现的主程序文件
 │   ├── Java                  			# Java 语言实现目录
@@ -122,11 +120,14 @@ PROJECT_ROOT
    Hello World
    ```
 
-### cpp 版本
+### C++ 版本  
 
 1. **打开解决方案**：
 
-​       用`Visual Stdio2022`，导航到`cpp/[参与者昵称]`目录,打开`HelloWorld.sln`解决方案
+​       用`Visual Stdio2022`，导航到`C++/[参与者昵称]`目录,打开`HelloWorld.sln`解决方案
+
+
+
 
 2. **编译运行**：
 
@@ -135,9 +136,9 @@ PROJECT_ROOT
 ​    3.**查看输出**：
 ​      程序运行后，终端将输出：
 
-       ```text
-Hello World!
-       ```
+   ```text
+   Hello World
+   ```
 
 ### Go 版本
 
@@ -279,6 +280,14 @@ int main() {
 
 - `main` 函数是 C 程序的入口点，程序从这里开始执行。它是操作系统与程序交互的核心接口。
 
+#### C++ 示例
+
+```cpp
+int main() {
+```
+
+- `main` 函数是 C++ 程序的入口点，程序从这里开始执行。它是操作系统与程序交互的核心接口。
+
 #### Go 示例
 
 ```go
@@ -368,6 +377,21 @@ printf("Hello, World!\n"); // 打印 "Hello, World!"，并换行
 
 - `printf`：通过标准输出流输出文本，`\n` 表示换行符，体现了对输出流的精确控制。
 
+#### C++ 示例
+
+```cpp
+[] {
+        const auto print = [](auto&&... args) {
+            (std::cout << ... << args);
+            };
+        print("Hello", " ", "World!\n");
+        }();
+```
+
+- 用lambda定义并且调用函数，打印Hello World!
+
+
+
 #### Go 示例
 
 ```go
@@ -434,20 +458,7 @@ print("World")
 
 - `書之`：通过标准输出流输出文本，并在输出后添加换行符，确保输出格式的规范性。
 
-#### cpp 示例
 
-```cpp
-int main() {
-    [] {
-        const auto print = [](auto&&... args) {
-            (std::cout << ... << args);
-            };
-        print("Hello", " ", "World!\n");
-        }();
-}
-```
-
-- 用lambda定义并且调用函数，打印Hello World!
 
 ## 项目意义
 
