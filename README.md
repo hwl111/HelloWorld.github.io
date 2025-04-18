@@ -41,7 +41,6 @@ PROJECT_ROOT
 │   │   └── [参与者昵称]/HelloWorld.c      # 项目参与者采用 C 语言实现的主程序文件
 |   ├── cpp                     # C++ 语言实现目录
 │   │   └── [参与者昵称]/HelloWorld.cpp      # 项目参与者采用 C++ 语言实现的主程序文件
-│   ├── Go                    # Go 语言实现目录
 │   ├── Go                    			# Go 语言实现目录
 │   │   └── [参与者昵称]/HelloWorld.go          # 项目参与者采用 Go 语言实现的主程序文件
 │   ├── Java                  			# Java 语言实现目录
@@ -140,7 +139,6 @@ PROJECT_ROOT
 Hello World!
        ```
 
-### Go 言版本
 ### Go 版本
 
 1. **运行程序**：
