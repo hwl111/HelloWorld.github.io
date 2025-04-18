@@ -1,8 +1,8 @@
 ---
 name: "[Feature]功能建议"
 about: 建议一个新功能或增强
-title: ''
-labels: ''
+title: "[Feature]功能建议"
+labels: enhancement
 assignees: ''
 
 ---

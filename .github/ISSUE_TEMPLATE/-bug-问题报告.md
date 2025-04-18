@@ -1,8 +1,8 @@
 ---
 name: "[Bug]问题报告"
 about: 报告一个 Bug或问题
-title: ''
-labels: ''
+title: "[BUG]问题报告"
+labels: bug
 assignees: ''
 
 ---
