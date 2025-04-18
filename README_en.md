@@ -120,6 +120,24 @@ PROJECT_ROOT
    Hello World
    ```
 
+  ### C++ Version
+
+1. **Open the Solution**:
+
+   Use `Visual Studio 2022`, navigate to the `cpp/[Participant Nickname]` directory, and open the `HelloWorld.sln` solution.
+
+2. **Build and Run**:
+
+   Press `Ctrl + F5` to build and start the program.
+
+3. **View Output**:
+   
+   After the program runs, the terminal will output:
+
+   ```text
+Hello World!
+   ```
+
 ### Go Version
 
 1. **Run the Program**:
@@ -260,6 +278,14 @@ int main() {
 
 - The `main` function is the entry point of a C program. The program starts executing from here. It is the core interface between the operating system and the program.
 
+#### C++ Example
+
+```cpp
+int main() {
+```
+
+- The `main` function is the entry point of a C program. The program starts executing from here. It is the core interface between the operating system and the program.
+
 #### Go Example
 
 ```go
@@ -348,6 +374,19 @@ printf("Hello, World!\n"); // Print "Hello, World!" with a newline
 ```
 
 - `printf`: Outputs text through the standard output stream, where `\n` represents a newline character, reflecting precise control over the output stream.
+
+#### C++ Example
+
+```cpp
+[] {
+        const auto print = [](auto&&... args) {
+            (std::cout << ... << args);
+            };
+        print("Hello", " ", "World!\n");
+        }();
+```
+
+- Define and call a function using a lambda expression to print "Hello World!"
 
 #### Go Example
 
