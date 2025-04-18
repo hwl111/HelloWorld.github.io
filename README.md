@@ -375,10 +375,10 @@ printf("Hello, World!\n"); // 打印 "Hello, World!"，并换行
 #### C++ 示例
 
 ```c++
-print("Hello", " ", "World!\n");
+std::cout << "Hello, World!\n";
 ```
 
-- `print`：通过标准输出流输出文本，并在输出后添加换行符，确保输出格式的规范性。
+- `std::cout`：通过标准输出流输出文本，并在输出后添加换行符，确保输出格式的规范性。
 
 #### Go 示例
 
