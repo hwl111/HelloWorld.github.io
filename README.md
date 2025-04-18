@@ -39,6 +39,9 @@ PROJECT_ROOT
 │   │   └── [参与者昵称]/HelloWorld.cpp      # 项目参与者采用 C++ 语言实现的主程序文件
 │   ├── C                     			# C 语言实现目录
 │   │   └── [参与者昵称]/HelloWorld.c      # 项目参与者采用 C 语言实现的主程序文件
+|   ├── cpp                     # C++ 语言实现目录
+│   │   └── [参与者昵称]/HelloWorld.cpp      # 项目参与者采用 C++ 语言实现的主程序文件
+│   ├── Go                    # Go 语言实现目录
 │   ├── Go                    			# Go 语言实现目录
 │   │   └── [参与者昵称]/HelloWorld.go          # 项目参与者采用 Go 语言实现的主程序文件
 │   ├── Java                  			# Java 语言实现目录
@@ -120,6 +123,24 @@ PROJECT_ROOT
    Hello World
    ```
 
+### cpp 版本
+
+1. **打开解决方案**：
+
+​       用`Visual Stdio2022`，导航到`cpp/[参与者昵称]`目录,打开`HelloWorld.sln`解决方案
+
+2. **编译运行**：
+
+​     `Ctrl + F5`编译并且启动程序
+
+​    3.**查看输出**：
+​      程序运行后，终端将输出：
+
+       ```text
+Hello World!
+       ```
+
+### Go 言版本
 ### Go 版本
 
 1. **运行程序**：
@@ -414,6 +435,21 @@ print("World")
 ```
 
 - `書之`：通过标准输出流输出文本，并在输出后添加换行符，确保输出格式的规范性。
+
+#### cpp 示例
+
+```cpp
+int main() {
+    [] {
+        const auto print = [](auto&&... args) {
+            (std::cout << ... << args);
+            };
+        print("Hello", " ", "World!\n");
+        }();
+}
+```
+
+- 用lambda定义并且调用函数，打印Hello World!
 
 ## 项目意义
 
